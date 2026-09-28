@@ -3,18 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Site sobre moda, tendências e estilo.">
+    <meta name="description" content="Moda & Estilo - vestidos, saias e inspirações de moda.">
     <title>Moda & Estilo</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 <header class="cabecalho">
-    <div class="container">
-        <h1>Moda & Estilo</h1>
+    <div class="container nav-container">
+        <a href="#inicio" class="logo">Moda<span>&</span>Estilo</a>
+
         <nav class="menu">
             <a href="#inicio">Início</a>
             <a href="#sobre">Sobre</a>
+            <a href="#colecao">Coleção</a>
             <a href="#tendencias">Tendências</a>
             <a href="#contato">Contato</a>
         </nav>
@@ -22,57 +25,177 @@
 </header>
 
 <main>
+
     <section id="inicio" class="hero">
-        <div class="container">
+        <div class="container hero-grid">
             <div class="hero-texto">
-                <p class="subtitulo">ESTILO • PERSONALIDADE • CRIATIVIDADE</p>
-                <h2>A moda é uma forma de expressar quem você é.</h2>
-                <p>Descubra tendências, combinações e inspirações para transformar seu estilo e criar looks que tenham a sua personalidade.</p>
-                <a href="#tendencias" class="botao">Ver tendências</a>
+                <span class="etiqueta">NOVA COLEÇÃO • 2026</span>
+                <h1>Seu estilo.<br><strong>Sua identidade.</strong></h1>
+                <p>
+                    Descubra peças, combinações e inspirações para criar
+                    looks elegantes, modernos e cheios de personalidade.
+                </p>
+                <a href="#colecao" class="botao">Explorar coleção <span>→</span></a>
             </div>
+
             <div class="hero-imagem">
-                <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=900&q=80" alt="Pessoa usando um look moderno de moda">
+                <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1000&q=85"
+                     alt="Look moderno de moda feminina">
+                <div class="selo">ESTILO<br><strong>ÚNICO</strong></div>
             </div>
         </div>
     </section>
 
     <section id="sobre" class="sobre">
+        <div class="container sobre-grid">
+            <div>
+                <span class="mini-titulo">SOBRE NÓS</span>
+                <h2>Moda que combina com <em>você.</em></h2>
+            </div>
+
+            <div class="sobre-texto">
+                <p>
+                    A moda é uma forma de expressão. Cores, cortes e tecidos
+                    ajudam a contar uma história e revelar a personalidade
+                    de quem veste cada peça.
+                </p>
+                <p>
+                    Inspire-se nas nossas seleções e encontre novas maneiras
+                    de transformar seu guarda-roupa.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="colecao" class="colecao">
         <div class="container">
-            <h2>Sobre a moda</h2>
-            <p>A moda vai muito além das roupas. Ela representa cultura, criatividade e identidade. Cada pessoa pode usar diferentes cores, tecidos e estilos para criar uma aparência única.</p>
-            <p>Não existem regras para encontrar o seu próprio estilo. O mais importante é sentir-se confortável e confiante com aquilo que você veste.</p>
+            <div class="secao-cabecalho">
+                <div>
+                    <span class="mini-titulo">DESTAQUES</span>
+                    <h2>Nossa coleção</h2>
+                </div>
+                <p>Peças para diferentes momentos e estilos.</p>
+            </div>
+
+            <div class="galeria">
+
+                <article class="produto produto-grande">
+                    <div class="imagem-produto">
+                        <img src="https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=900&q=85"
+                             alt="Vestido longo elegante">
+                        <span class="tag">Vestidos</span>
+                    </div>
+                    <div class="produto-info">
+                        <h3>Vestidos Longos</h3>
+                        <p>Elegância para ocasiões especiais.</p>
+                    </div>
+                </article>
+
+                <article class="produto">
+                    <div class="imagem-produto">
+                        <img src="https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=800&q=85"
+                             alt="Saia feminina moderna">
+                        <span class="tag">Saias</span>
+                    </div>
+                    <div class="produto-info">
+                        <h3>Saias</h3>
+                        <p>Leveza e movimento no seu look.</p>
+                    </div>
+                </article>
+
+                <article class="produto">
+                    <div class="imagem-produto">
+                        <img src="https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&fit=crop&w=800&q=85"
+                             alt="Vestido feminino moderno">
+                        <span class="tag">Looks</span>
+                    </div>
+                    <div class="produto-info">
+                        <h3>Looks Modernos</h3>
+                        <p>Peças para destacar sua personalidade.</p>
+                    </div>
+                </article>
+
+                <article class="produto">
+                    <div class="imagem-produto">
+                        <img src="https://images.unsplash.com/photo-1583496661160-fb5886a13d27?auto=format&fit=crop&w=800&q=85"
+                             alt="Roupa feminina elegante">
+                        <span class="tag">Elegância</span>
+                    </div>
+                    <div class="produto-info">
+                        <h3>Essenciais</h3>
+                        <p>Clássicos que nunca saem de moda.</p>
+                    </div>
+                </article>
+
+                <article class="produto">
+                    <div class="imagem-produto">
+                        <img src="https://images.unsplash.com/photo-1591369822096-ffd140ec948f?auto=format&fit=crop&w=800&q=85"
+                             alt="Saia e look feminino">
+                        <span class="tag">Estilo</span>
+                    </div>
+                    <div class="produto-info">
+                        <h3>Peças Versáteis</h3>
+                        <p>Combine, transforme e crie.</p>
+                    </div>
+                </article>
+
+            </div>
         </div>
     </section>
 
     <section id="tendencias" class="tendencias">
         <div class="container">
-            <h2>Tendências</h2>
+            <div class="secao-central">
+                <span class="mini-titulo">INSPIRAÇÃO</span>
+                <h2>Encontre seu estilo</h2>
+                <p>
+                    Não siga apenas tendências. Misture referências,
+                    experimente novas combinações e crie uma identidade
+                    que seja realmente sua.
+                </p>
+            </div>
+
             <div class="cards">
                 <article class="card">
-                    <div class="icone">01</div>
+                    <span class="numero">01</span>
                     <h3>Cores</h3>
-                    <p>Explore diferentes combinações de cores para criar looks marcantes e cheios de personalidade.</p>
+                    <p>Use diferentes tonalidades para criar combinações marcantes.</p>
                 </article>
+
                 <article class="card">
-                    <div class="icone">02</div>
+                    <span class="numero">02</span>
                     <h3>Conforto</h3>
-                    <p>Peças confortáveis podem ser modernas, elegantes e perfeitas para o dia a dia.</p>
+                    <p>Escolha peças que deixem você confortável e confiante.</p>
                 </article>
+
                 <article class="card">
-                    <div class="icone">03</div>
+                    <span class="numero">03</span>
                     <h3>Autenticidade</h3>
-                    <p>O melhor estilo é aquele que combina com você. Experimente e crie sua própria identidade.</p>
+                    <p>Seu estilo não precisa seguir regras. Ele precisa representar você.</p>
                 </article>
             </div>
         </div>
     </section>
+
 </main>
 
 <footer id="contato" class="rodape">
-    <div class="container">
-        <h2>Moda & Estilo</h2>
-        <p>Inspire-se. Experimente. Seja você.</p>
-        <p class="copyright">&copy; 2026 Moda & Estilo. Todos os direitos reservados.</p>
+    <div class="container rodape-grid">
+        <div>
+            <a href="#inicio" class="logo logo-footer">Moda<span>&</span>Estilo</a>
+            <p>Inspire-se. Experimente. Seja você.</p>
+        </div>
+
+        <div class="rodape-links">
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#colecao">Coleção</a>
+            <a href="#tendencias">Tendências</a>
+        </div>
+    </div>
+
+    <div class="container copyright">
+        <p>&copy; 2026 Moda & Estilo. Todos os direitos reservados.</p>
     </div>
 </footer>
 
